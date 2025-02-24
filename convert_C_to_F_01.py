@@ -23,7 +23,7 @@ celsius = float(input('Enter a temperature in Celsius: \n'))
 conv_1 = 9/5
 farenheight = celsius * conv_1 + 32
 
-print(f'{celsius} degrees Celsius is {farenheight} degrees Farenheight.')
+print(f'{celsius} degrees Celsius is {farenheight} degrees Fahrenheit.')
 
 
 
