@@ -19,7 +19,7 @@
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-celsius = float(input('Enter a temperature in Celsius: '))
+celsius = float(input('Enter a temperature in Celsius: \n'))
 conv_1 = 9/5
 farenheight = celsius * conv_1 + 32
 
