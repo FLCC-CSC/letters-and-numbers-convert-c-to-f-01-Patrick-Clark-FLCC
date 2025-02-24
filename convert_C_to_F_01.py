@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Patrick Clark
+# DATE: 2/23/2025
+# BRIEF DESCRIPTION: This program will ask the user for a temperature in Celsius and output the temperature in farenheight.  
 
 
 
@@ -19,7 +19,11 @@
     
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+celsius = float(input('Enter a temperature in Celsius: '))
+conv_1 = 9/5
+farenheight = celsius * conv_1 + 32
 
+print(f'{celsius} degrees Celsius is {farenheight} degrees Farenheight.')
 
 
 
@@ -75,14 +79,14 @@ Enter a temperature in Celsius: 1
 '''
 
 1. What does `float` mean?
-
+# 'float' means floating-point number. It is a decimal value that gets saved in the program.
 
 
 
 
 2. Why do you think it is important to use `float` as opposed to
    a different type of variable type?
-
+#It is important to use 'float' to get a more accurate solution that deals with decimal values. 
 
 
 
